@@ -1,44 +1,60 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Teste frontend Take
+Esse teste foi escrito em react usando functions components, não foi usado classes
+ 
 
-## Available Scripts
+## Principais dependências de trerceiros
 
-In the project directory, you can run:
+- Redux - 4.0.5
+- Styled Components - 5.1.0
+- Craco - 5.6.4 
+- Json-server - 5.6.4 
 
-### `yarn start`
+## Para rodar o projeto siga os comandos
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Instalar dependências `yarn` ou `npm install`
+### Iniciar projeto `yarn start` ou `npm start`
+### Subir a mock API `json-server --watch bots.json -p 1010`
+### Rodar testes `yarn test` ou `npm test`
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `yarn test`
+## Arquitetura do projeto
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+src
+  app
+    pages
+      components
+    routes
+  assets
+  colors
+  constants
+  services
+  styles
+  store
+    actions
+    reducers
+    state
+  tests
+    components
+    services
+    pages
+    utils
+  utils
+ 
+ ## Informações do projeto
 
-### `yarn build`
+ Todo o estilo do projeto foi contruido em styles-components. </br>
+ As chamadas são de uma api real que construi para esse projeto</br>
+ Utilizei o craco para melhorar a importação de arquivos, era assim "../../../../path" agora é assim "@/path"
+ em alguns components está da forma escrita acima, mas em outros está com o visual feio por causa do <b>jest</b> ele cismou de avacalhar a importação e não teve jeito, tive que modificar tudo onde ele passava, tanto queo os teste não cobrem os components.
+  </br>
+ as informações estão trafegando via Redux.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Importante!!!
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+A aplicação esta sendo servida por um component chamado json-server, esse component tem a função de expor um aruivo json que é servido como api, temos todos os verbos http GET POST PUT PATCH DELETE, só tem uma rota nesse caso http://localhost:1010/bots. </br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Para rodar tudo de uma vez
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+`yarn && yarn start | json-server --watch bots.json -p 1010` </br>
+ou</br>
+`npm install && npm start | json-server --watch bots.json -p 1010` </br>
