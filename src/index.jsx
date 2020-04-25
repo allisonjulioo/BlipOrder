@@ -7,7 +7,7 @@ import store from "./app/store";
 import Routes from "./app/routes";
 import { Global } from "./app/styles";
 
-import Header from "@/app/components/Header";
+import Header from "./app/components/Header";
 
 const history = createBrowserHistory();
 

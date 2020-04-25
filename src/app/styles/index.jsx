@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components";
-import { black, blue } from "@/app/colors";
-import { font } from "@/app/constants";
+import { black, blue } from "./../colors";
+import { font } from "./../constants";
 
 export const Global = createGlobalStyle`
 @import url("https://fonts.googleapis.com/css2?family=${font}:wght@100;300;400;700&display=swap");
