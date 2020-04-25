@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/TesteFrontEndTake/static/js/main.d9659644.chunk.js",
-    "main.js.map": "/TesteFrontEndTake/static/js/main.d9659644.chunk.js.map",
+    "main.js": "/TesteFrontEndTake/static/js/main.d0fce0f0.chunk.js",
+    "main.js.map": "/TesteFrontEndTake/static/js/main.d0fce0f0.chunk.js.map",
     "runtime-main.js": "/TesteFrontEndTake/static/js/runtime-main.49109281.js",
     "runtime-main.js.map": "/TesteFrontEndTake/static/js/runtime-main.49109281.js.map",
     "static/js/2.13269e7f.chunk.js": "/TesteFrontEndTake/static/js/2.13269e7f.chunk.js",
     "static/js/2.13269e7f.chunk.js.map": "/TesteFrontEndTake/static/js/2.13269e7f.chunk.js.map",
     "index.html": "/TesteFrontEndTake/index.html",
-    "precache-manifest.47989b5fc37f1e63f91e4a57785c0bee.js": "/TesteFrontEndTake/precache-manifest.47989b5fc37f1e63f91e4a57785c0bee.js",
+    "precache-manifest.697a578d551d0fd592ee0177b8091af2.js": "/TesteFrontEndTake/precache-manifest.697a578d551d0fd592ee0177b8091af2.js",
     "service-worker.js": "/TesteFrontEndTake/service-worker.js",
     "static/js/2.13269e7f.chunk.js.LICENSE.txt": "/TesteFrontEndTake/static/js/2.13269e7f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.49109281.js",
     "static/js/2.13269e7f.chunk.js",
-    "static/js/main.d9659644.chunk.js"
+    "static/js/main.d0fce0f0.chunk.js"
   ]
 }
