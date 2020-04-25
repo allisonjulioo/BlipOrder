@@ -62,8 +62,8 @@ export default ({ history }) => {
         <Content>
           <SubHeader />
           <h2>Favorities ({listBots.length && listBots[0].length})</h2>
-          {listBots.map((bots) => (
-            <Row inline={isList} key={bots}>
+          {listBots.map((bots, i) => (
+            <Row inline={isList} key={i}>
               {applyFilter(bots).map((bot, index) => (
                 <CardBot key={index} inline={isList}>
                   <InfoBot inline={isList}>
