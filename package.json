@@ -21,7 +21,7 @@
   "homepage": "https://allisonjulioo.github.io/TesteFrontEndTake/",
   "scripts": {
     "start": "craco start",
-    "build": "craco build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
