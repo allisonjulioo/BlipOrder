@@ -6,6 +6,7 @@ import { createBrowserHistory } from "history";
 import store from "./app/store";
 import Routes from "./app/routes";
 import { Global } from "./app/styles";
+import "./styles.css";
 
 import Header from "./app/components/Header";
 

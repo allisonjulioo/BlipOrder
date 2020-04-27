@@ -1,9 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 import { black, blue } from "./../colors";
-import { font } from "./../constants";
 
 export const Global = createGlobalStyle`
-@import url("https://fonts.googleapis.com/css2?family=${font}:wght@100;300;400;700&display=swap");
 body,
 html {
   width: 100%;
@@ -17,7 +15,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   outline: none;
-  font-family: ${font}, Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
 }
 a {
   text-decoration: none;
