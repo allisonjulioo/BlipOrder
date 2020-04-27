@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/TesteFrontEndTake/static/css/main.e5ccec97.chunk.css",
-    "main.js": "/TesteFrontEndTake/static/js/main.341a5c70.chunk.js",
-    "main.js.map": "/TesteFrontEndTake/static/js/main.341a5c70.chunk.js.map",
+    "main.js": "/TesteFrontEndTake/static/js/main.f4b66e9d.chunk.js",
+    "main.js.map": "/TesteFrontEndTake/static/js/main.f4b66e9d.chunk.js.map",
     "runtime-main.js": "/TesteFrontEndTake/static/js/runtime-main.49109281.js",
     "runtime-main.js.map": "/TesteFrontEndTake/static/js/runtime-main.49109281.js.map",
     "static/js/2.13269e7f.chunk.js": "/TesteFrontEndTake/static/js/2.13269e7f.chunk.js",
     "static/js/2.13269e7f.chunk.js.map": "/TesteFrontEndTake/static/js/2.13269e7f.chunk.js.map",
     "index.html": "/TesteFrontEndTake/index.html",
-    "precache-manifest.a89da419c1650b002fe4d233a6bf4014.js": "/TesteFrontEndTake/precache-manifest.a89da419c1650b002fe4d233a6bf4014.js",
+    "precache-manifest.f3e168d579488faa2f01904df667dee2.js": "/TesteFrontEndTake/precache-manifest.f3e168d579488faa2f01904df667dee2.js",
     "service-worker.js": "/TesteFrontEndTake/service-worker.js",
     "static/css/main.e5ccec97.chunk.css.map": "/TesteFrontEndTake/static/css/main.e5ccec97.chunk.css.map",
     "static/js/2.13269e7f.chunk.js.LICENSE.txt": "/TesteFrontEndTake/static/js/2.13269e7f.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.49109281.js",
     "static/js/2.13269e7f.chunk.js",
     "static/css/main.e5ccec97.chunk.css",
-    "static/js/main.341a5c70.chunk.js"
+    "static/js/main.f4b66e9d.chunk.js"
   ]
 }
