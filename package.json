@@ -17,7 +17,7 @@
     "redux-thunk": "^2.3.0",
     "styled-components": "^5.1.0"
   },
-  "homepage": "https://allisonjulioo.github.io/TesteFrontEndTake/",
+  "homepage": "https://allisonjulioo.github.io/BlipOrder/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
