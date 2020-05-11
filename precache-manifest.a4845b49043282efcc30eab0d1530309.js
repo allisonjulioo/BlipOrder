@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7dc46e1654433e498feca99f5b32cfcd",
+    "revision": "c07c4b252ace92f986bdcb154471449b",
     "url": "/BlipOrder/index.html"
   },
   {
-    "revision": "9a1625f517ed02f8752e",
+    "revision": "7aff7e621cd7e53ca203",
     "url": "/BlipOrder/static/css/main.e5ccec97.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BlipOrder/static/js/2.d51d5d15.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9a1625f517ed02f8752e",
-    "url": "/BlipOrder/static/js/main.3be5c088.chunk.js"
+    "revision": "7aff7e621cd7e53ca203",
+    "url": "/BlipOrder/static/js/main.3f5ffcb1.chunk.js"
   },
   {
     "revision": "c6f1d0de1fb92f180278",

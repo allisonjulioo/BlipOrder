@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/BlipOrder/precache-manifest.93d8ec42b9f6f609f54d0ec855e43166.js"
+  "/BlipOrder/precache-manifest.a4845b49043282efcc30eab0d1530309.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/BlipOrder/static/css/main.e5ccec97.chunk.css",
-    "main.js": "/BlipOrder/static/js/main.3be5c088.chunk.js",
-    "main.js.map": "/BlipOrder/static/js/main.3be5c088.chunk.js.map",
+    "main.js": "/BlipOrder/static/js/main.3f5ffcb1.chunk.js",
+    "main.js.map": "/BlipOrder/static/js/main.3f5ffcb1.chunk.js.map",
     "runtime-main.js": "/BlipOrder/static/js/runtime-main.0ac9c22e.js",
     "runtime-main.js.map": "/BlipOrder/static/js/runtime-main.0ac9c22e.js.map",
     "static/js/2.d51d5d15.chunk.js": "/BlipOrder/static/js/2.d51d5d15.chunk.js",
     "static/js/2.d51d5d15.chunk.js.map": "/BlipOrder/static/js/2.d51d5d15.chunk.js.map",
     "index.html": "/BlipOrder/index.html",
-    "precache-manifest.93d8ec42b9f6f609f54d0ec855e43166.js": "/BlipOrder/precache-manifest.93d8ec42b9f6f609f54d0ec855e43166.js",
+    "precache-manifest.a4845b49043282efcc30eab0d1530309.js": "/BlipOrder/precache-manifest.a4845b49043282efcc30eab0d1530309.js",
     "service-worker.js": "/BlipOrder/service-worker.js",
     "static/css/main.e5ccec97.chunk.css.map": "/BlipOrder/static/css/main.e5ccec97.chunk.css.map",
     "static/js/2.d51d5d15.chunk.js.LICENSE.txt": "/BlipOrder/static/js/2.d51d5d15.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.0ac9c22e.js",
     "static/js/2.d51d5d15.chunk.js",
     "static/css/main.e5ccec97.chunk.css",
-    "static/js/main.3be5c088.chunk.js"
+    "static/js/main.3f5ffcb1.chunk.js"
   ]
 }
