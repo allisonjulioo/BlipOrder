@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/BlipOrder/static/css/main.e5ccec97.chunk.css",
-    "main.js": "/BlipOrder/static/js/main.3f5ffcb1.chunk.js",
-    "main.js.map": "/BlipOrder/static/js/main.3f5ffcb1.chunk.js.map",
-    "runtime-main.js": "/BlipOrder/static/js/runtime-main.0ac9c22e.js",
-    "runtime-main.js.map": "/BlipOrder/static/js/runtime-main.0ac9c22e.js.map",
-    "static/js/2.d51d5d15.chunk.js": "/BlipOrder/static/js/2.d51d5d15.chunk.js",
-    "static/js/2.d51d5d15.chunk.js.map": "/BlipOrder/static/js/2.d51d5d15.chunk.js.map",
+    "main.js": "/BlipOrder/static/js/main.de9a1088.chunk.js",
+    "main.js.map": "/BlipOrder/static/js/main.de9a1088.chunk.js.map",
+    "runtime-main.js": "/BlipOrder/static/js/runtime-main.46fc8b3a.js",
+    "runtime-main.js.map": "/BlipOrder/static/js/runtime-main.46fc8b3a.js.map",
+    "static/js/2.2568502f.chunk.js": "/BlipOrder/static/js/2.2568502f.chunk.js",
+    "static/js/2.2568502f.chunk.js.map": "/BlipOrder/static/js/2.2568502f.chunk.js.map",
     "index.html": "/BlipOrder/index.html",
-    "precache-manifest.a4845b49043282efcc30eab0d1530309.js": "/BlipOrder/precache-manifest.a4845b49043282efcc30eab0d1530309.js",
+    "precache-manifest.215c2d3e5e637ef8b42473151c75834b.js": "/BlipOrder/precache-manifest.215c2d3e5e637ef8b42473151c75834b.js",
     "service-worker.js": "/BlipOrder/service-worker.js",
     "static/css/main.e5ccec97.chunk.css.map": "/BlipOrder/static/css/main.e5ccec97.chunk.css.map",
-    "static/js/2.d51d5d15.chunk.js.LICENSE.txt": "/BlipOrder/static/js/2.d51d5d15.chunk.js.LICENSE.txt"
+    "static/js/2.2568502f.chunk.js.LICENSE.txt": "/BlipOrder/static/js/2.2568502f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.0ac9c22e.js",
-    "static/js/2.d51d5d15.chunk.js",
+    "static/js/runtime-main.46fc8b3a.js",
+    "static/js/2.2568502f.chunk.js",
     "static/css/main.e5ccec97.chunk.css",
-    "static/js/main.3f5ffcb1.chunk.js"
+    "static/js/main.de9a1088.chunk.js"
   ]
 }
