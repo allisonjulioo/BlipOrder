@@ -1,1 +1,1 @@
-export const apiUrl = "https://api-default-apps.herokuapp.com";
+export const apiUrl = "https://api-generic-alink.herokuapp.com";
