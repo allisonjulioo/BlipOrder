@@ -1,27 +1,22 @@
+import * as _ from "lodash";
 import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { get, update } from "./../../services/bots";
 import { dateFormat } from "./../../utils";
-import * as _ from "lodash";
 import {
-  Container,
-  Content,
-  Star,
-  StarImage,
   Ball,
   BallImage,
-  CardBot,
-  InfoBot,
-  Title,
-  Description,
-  Row,
+  CardBot, Container,
+  Content, Description, InfoBot, Row, Star,
+  StarImage, Title
 } from "./styles";
 
-import star from "./../../assets/star.png";
 import starOutline from "./../../assets/star-outline.png";
+import star from "./../../assets/star.png";
 
-import SubHeader from "./components/SubHeader";
+import { useCallback } from "react";
 import Button from "./../../components/Button";
+import SubHeader from "./components/SubHeader";
 
 export default ({ history }) => {
   const moment = dateFormat;
@@ -31,12 +26,12 @@ export default ({ history }) => {
   const botId = 0;
   const { isList, sortMode, filter } = useSelector((state) => state);
 
-  const fetchBots = async () => {
+  const fetchBots = useCallback(async () => {
     const data = await get();
     setListBots(data);
     setSort(sortMode);
     setFilter(filter);
-  };
+  }, [filter, sortMode]);
 
   const updateBots = async (bot) => {
     bot.favorite = !bot.favorite;
@@ -55,7 +50,8 @@ export default ({ history }) => {
 
   useEffect(() => {
     fetchBots();
-  }, [botId, isList, sortMode, filter]);
+  }, [botId, isList, sortMode, filter, fetchBots]);
+
   return (
     <>
       <Container>

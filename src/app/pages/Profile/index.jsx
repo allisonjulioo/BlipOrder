@@ -1,51 +1,52 @@
-import React, { useState, useEffect } from "react";
-import { profile } from "./../../services/bots";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { botDelete, profile } from "./../../services/bots";
 import { dateFormat } from "./../../utils";
-import { botDelete } from "./../../services/bots";
 import {
-  Container,
-  Header,
-  Infos,
-  Image,
-  Description,
-  Title,
-  Id,
-  Span,
-  Created,
   Body,
-  Row,
-  Col,
   Card,
+  Col,
+  Container,
+  Created,
+  Description,
+  Header,
+  Id,
+  Image,
+  Infos,
+  Row,
+  Span,
+  Title
 } from "./styles";
 
-import blip from "./../../assets/blip.png";
-import user from "./../../assets/user.png";
-import union from "./../../assets/union.png";
-import sent from "./../../assets/sent.png";
-import plano from "./../../assets/plano.png";
 import back from "./../../assets/back.png";
+import blip from "./../../assets/blip.png";
+import plano from "./../../assets/plano.png";
+import sent from "./../../assets/sent.png";
 import trash from "./../../assets/trash.png";
+import union from "./../../assets/union.png";
+import user from "./../../assets/user.png";
 
+import { useCallback } from "react";
 import Button from "./../../components/Button";
 
 export default ({ match, history }) => {
   const moment = dateFormat;
   const [profileBot, setProfile] = useState([]);
-  const profileId = 0;
+
   const handleDelete = async (id) => {
     await botDelete(id);
-    history.push(await `/`);
+    history.push(`/`);
   };
 
-  const getProfile = async () => {
+  const getProfile = useCallback(async () => {
     const { id } = await match.params;
     const data = await profile(id);
     setProfile(data);
-  };
+  }, [match.params]);
+
   useEffect(() => {
     getProfile();
-  }, [profileId]);
+  }, [getProfile]);
 
   return (
     <Container>
